@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+
+/* GLOBAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font: 15px/1.5 Arial, Helvetica, Sans-serif;
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header{
+    padding: 15px;
+    background: #35424a;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    color: #FFD700;
+}
+
+
+
+/* Header */
+
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header li{
+    float: right;
+    display: inline;
+    padding: 0 40px 0 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+header .highlight a{
+    color: blueviolet;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#brand {
+    float: left;
+    color: #FFD700;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+
+/*toggle button & navbar links */
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links{
+    color: #ffffff;
+    padding-top: 10px;
+    min-height: 70px;
+    
+}
+
+/*Showcase */
+
+
+#showcase img {
+    background: url(images/showcase.jpg) no-repeat;
+
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    height: 25%;
+    width: 100%;
+    display: block
+}
+
+
+#showcase h1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-align: center;
+    font-size: 120px;
+    color: red;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+
+/* Membership bar*/
+
+
+#membership{
+    padding: 15px;
+    color: #ffffff;
+    background: #4F6367;
+    word-spacing: 30px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+#membership h1{
+    float: left;
+}
+
+#membership form{
+    float: right;
+}
+
+#membership input[type="email"]{
+    margin-top: -5px;
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+
+.button_1{
+    height: 38px;
+    background: red;
+    border: none;
+    padding: 0 20px 0 20px;
+    color: #ffffff;
+}
+
+/* Boxed */
+ #boxes {
+     margin-top: 20px;
+ }
+
+ #boxes .box{
+     float: left;
+     text-align: center;
+     width: 95%;
+     padding: 25px;
+ }
+
+
+ #boxes .box img{
+     width: 160px;
+ }
+
+ #boxes .box h3{
+     margin-top: 9px;
+     margin-bottom: 9px;
+ }
+
+ #boxes .box p {
+     color: #ffffff;
+ }
+
+
+/*Store rows */
+
+.row-1{
+    padding:50px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    vertical-align: auto;
+    display: flex;
+    
+
+}
+
+.row-1 button{
+    background-color: #E76F51;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.row-1 div {
+    padding: 5px;
+    text-transform: uppercase;
+    color: gold;
+    background-color: #264653;
+    border-radius: 10px;
+}
+
+.row-1 span{
+    background-color: #2A9D8F;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.row-1 img{
+    padding: 20px;
+    margin: 0;
+    background-color: #264653;
+}
+
+.row-2{
+    margin: 0;
+    padding:50px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    vertical-align: auto;
+}
+
+.row-2 button{
+    background-color: #E76F51;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.row-2 div {
+    padding: 5px;
+    text-transform: uppercase;
+    color: gold;
+    background-color: #264653;
+    border-radius: 10px;
+}
+
+.row-2 span{
+    background-color: #2A9D8F;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.row-2 img{
+    padding: 20px;
+    margin: 0;
+    background-color: #264653;
+    
+}
+
+.row-3{
+    margin: 0;
+    padding: 50px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    vertical-align: auto;
+}
+
+
+.row-3 button{
+    background-color: #E76F51;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.row-3 div {
+    padding: 5px;
+    text-transform: uppercase;
+    color: gold;
+    background-color: #264653;
+    border-radius: 10px;
+}
+
+.row-3 span{
+    background-color: #2A9D8F;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.row-3 img{
+    padding: 20px;
+    margin: 0;
+    background-color: #264653;
+}
+
+
+.first-item{
+    margin: 25px;
+}
+
+.second-item{
+    margin: 25px;
+}
+
+.third-item{
+    margin: 25px;
+}
+
+.fourth-item{
+    margin: 25px;
+}
+
+.fifth-item{
+    margin: 25px;
+}
+
+.sixth-item{
+    margin: 25px;
+}
+
+.rows h2{
+    color: #ffffff;
+    text-align: center;
+    width: 95%;
+    margin-top: 60px;
+}
+
+
+.row-1 button:hover{
+    cursor: pointer;
+    background-color:orange;
+}
+
+.row-2 button:hover{
+    cursor: pointer;
+    background-color:orange;
+}
+
+.row-3 button:hover{
+    cursor: pointer;
+    background-color:orange;
+}
+
+.row-1 div{
+    margin-bottom: 25px;
+}
+
+.row-2 div{
+    margin-bottom: 25px;
+}
+
+.row-3 div{
+    margin-bottom: 25px;
+}
+
+
+/* About page */
+
+
+.about{
+    background-color:  #264653;
+    padding: 25px;
+    margin: 45px 15px 15px 15px;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.coloring h2{
+    color: gold;
+    margin-bottom: 5px;
+}
+
+.behind-scenes{
+    background-color:  #264653;
+    padding: 25px;
+    margin: 15px 15px 45px 15px;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.behind-scenes img{
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.future{
+    background-color:  #264653;
+    padding: 25px;
+    margin: 15px 15px 45px 15px;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+/* Contact */ 
+
+
+#reviews .left-reviews {
+    float: left;
+    color: #ffffff;
+    margin: 15px;
+    text-align: center;
+}
+
+
+#reviews .right-form {
+    float: right;
+    margin: 15px;
+    margin-right: 150px;
+    background-color: #264653;
+    padding: 45px;
+    border-radius: 10px;
+}
+
+#reviews .right-form label{
+    color: gold;
+}
+
+#reviews .right-form button{
+    display: block;
+    padding: 15px;
+    background-color: #E76F51;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#reviews .right-form button:hover{
+    background-color: orange;
+    color:white;
+    cursor: pointer;
+    
+}
+
+#reviews .right-form .label-size{
+    padding: 5px 0px 100px 15px;
+}
+
+
+
+#reviews .right-form input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+ 
+ /* Footer */
+
+ footer {
+     padding: 20px;
+     color: #ffffff;
+     background-color: red;
+     text-align: center;
+
+ }
+
+
+ /*media Queries */
+@media(max-width:1000px){
+    h1{
+        position: absolute;
+        top: 10%;
+    }
+}
+
+
+@media (max-width: 1600px){
+    .rows h2{
+        text-align: center;
+    }
+}
+
+@media(max-width:1300px){
+    #boxes .box {
+    width: 100%;
+    padding: 4px;
+    float: none;
+    text-align: center;
+
+    }
+
+    #reviews{
+        float: none;
+        text-align: center;
+        padding-right: 150px;
+    }
+
+    #reviews .left-reviews{
+        float: none;
+        text-align: center;
+        margin-left: 130px;
+
+    }
+
+    
+}
+
+ @media(max-width: 800px){
+    header, .navbar-links,
+    #brand,
+    #membership,
+    header li,
+    #membership h1,
+    #membership form,
+    #boxes .box{
+    
+        padding: 5px 5px 5px 5px;
+        margin: 0;
+        float:none;
+        text-align: center;
+        justify-content: center;
+        overflow: hidden;
+
+    }
+
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #showcase{
+        display:none;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    #membership button{
+        display:block;
+        width: 100%;
+    }
+
+    #membership form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    ul{
+        display: inline-grid;
+    }
+
+    .row-1{
+        vertical-align: none;
+        float: none;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .row-2{
+        vertical-align: none;
+        float: none;
+        width: 95%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .row-3{
+        vertical-align: none;
+        float: none;
+        width: 95%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .row-1 div span{
+        width: 100%;
+    }
+
+    .row-1 button{
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+    }
+
+    .row-2 button{
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+    }
+
+    .row-3 button{
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+    }
+
+    #reviews .right-form{
+        display: block;
+        width: 50%;
+        margin: 25px 25px 25px 400px;
+        text-align: center;
+    }
+
+    #reviews .right-form input{
+        padding: 15px;
+    }
+
+    #reviews .right-form .label-size{
+        padding-bottom: 100px;
+    }
+
+    
+
+    footer{
+        overflow: hidden;
+    }
+
+    
+
+ }
+
+ 
